@@ -1,0 +1,19 @@
+name = "theoxfordcomma"
+type = "javascript"
+account_id = ""
+workers_dev = true
+route = ""
+zone_id = ""
+
+[build]
+command = ""
+cwd = ""
+watch_paths = []
+
+[build.upload]
+format = "service-worker"
+
+[env.production]
+name = "theoxfordcomma-prod"
+route = "theoxfordcomma.com/*"
+zone_id = ""
